@@ -266,6 +266,36 @@ All pages in `app/` use a data-driven approach with client-side rendering:
 
 **Project Duration:** Six months from project kickoff to website launch.
 
+### Budget Estimate — 755 hrs
+
+| Phase | Task | Hours |
+|-------|------|------:|
+| **Phase 1: Data Preparation \ Content Migration** | | **296** |
+| | Design data architecture (CSV/Markdown) and migrate content from 2025 Bridge Guidebook PDFs | 80 |
+| | Update data as 2025 data becomes available | 120 |
+| | QA/QC CSV and Markdown files (No duplicated data across files) | 16 |
+| | Translate website text to allow for bilingual navigation | 80 |
+| **Phase 2: Core Development** | | **240** |
+| | Build scripts for web page and PDF generation (automation) | 80 |
+| | ArcGIS Online (AGOL) map development, integration and configuration | 80 |
+| | Embed interactive data visualizations (graphs, tables) | 80 |
+| **Phase 3: Design \ Style** | | **84** |
+| | Extract and replicate navigation structure, header/footer, color scheme, typography | 16 |
+| | Reference TxDOT Brand Guidelines for official colors, logos, and standards | 16 |
+| | Meet TxDOT guidance for website accessibility requirements | 32 |
+| | Verify alignment with TxDOT brand identity | 20 |
+| **Phase 4: Testing, QA and Deployment** | | **90** |
+| | Cross-browser testing, PDF verification, and performance testing | 90 |
+| **Phase 5: Revisions \ Final Edits** | | **45** |
+| | TxDOT review and feedback | — |
+| | Content adjustments and refinements | 25 |
+| | Final edits and quality assurance | 20 |
+| **Total** | | **755** |
+
+**Future update cycles** require only Phases 1, 4, and 5 (~271 hrs/cycle) — build scripts auto-regenerate all pages and PDFs from updated data.
+
+See [BUDGET_LINE_ITEM_JUSTIFICATIONS.md](Budget/BUDGET_LINE_ITEM_JUSTIFICATIONS.md) for detailed justification of each line item.
+
 ### Design Requirements - TxDOT Website Alignment
 
 **Question:** Must the website match the visual design, layout patterns, and user experience of the official TxDOT website (https://www.txdot.gov/) to ensure brand consistency and familiarity for users.

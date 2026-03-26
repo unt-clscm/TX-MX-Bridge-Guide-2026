@@ -1,4 +1,4 @@
-DISTRICT,CODE
-El Paso,ELP
-Pharr,RGV
-Laredo,LRD
+REGION,DISTRICT,CODE
+El Paso,El Paso,ELP
+Rio Grande Valley,Pharr,RGV
+Laredo,Laredo,LRD
